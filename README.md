@@ -23,7 +23,7 @@ We also implemented **SQL as a database** to store images and used **DAO (Data A
 
 ## 👥 Team
 
-- 💻 Developed by **Theo** and a friend  
+- 💻 Developed by **Theophilus** and **Michael Hadiwijaya Sudargo** 
 - 🤝 Built together as part of our collaborative learning in university
 
 ---

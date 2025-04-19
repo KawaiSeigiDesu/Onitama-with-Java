@@ -1,40 +1,50 @@
-# 🧠 Onitama: Strategy Board Game in Code
+# 🐉 Onitama Java Game
 
-Welcome to our implementation of **Onitama**, a fast-paced abstract strategy board game! This project was developed as part of our collaboration, where we applied key concepts like **object-oriented programming**, **data structures**, and **clean code principles** — showcasing our growth from previous individual projects. 🛠️
+This is a digital implementation of the **Onitama board game**, created as a team project during our Computer Science Bachelor's journey.  
+We developed this project using **Java**, **Apache NetBeans**, and a **full form-based GUI**.  
+We also implemented **SQL as a database** to store images and used **DAO (Data Access Object)** to load them into the game.
 
-## 🎯 About the Game
+> 🎓 This project marks a big leap from our earlier solo projects, where we had just started learning data structures and object-oriented programming (OOP). Here, we brought our knowledge together and built something exciting as a duo!
 
-Onitama is a 2-player strategy game played on a 5x5 board. Each player has 1 Master and 4 Students. Movement is determined by 5 randomly drawn movement cards, which rotate between players after each turn.
+---
 
-To win, a player must:
-- 🥋 Capture the opponent’s Master
-- 🏯 Move their own Master into the opponent’s Temple (center of their first row)
+## ✨ Features
 
-## 💡 Key Features
+- 🧠 Object-Oriented Design using Java
+- 🖼️ GUI created with Java Swing in Apache NetBeans (no terminal!)
+- 🗃️ SQL database integration for image storage and retrieval
+- 🧩 DAO pattern for image access and game logic separation
+- 🧵 Movement history stored using `ArrayList`
+- 🔘 Custom buttons created by extending `JButton`
+- 🃏 Onitama mechanics with card movement logic
+- 📷 Screenshot available in `/assets` folder
 
-- ♟️ **Fully playable 2-player version**
-- 🧱 **Object-Oriented Design**: 
-  - `Board`, `Player`, `Piece`, and `Card` classes
-- 🗃️ **Data Structures**:
-  - 2D arrays for the board
-  - Queues or Lists for card rotation
-- 🎯 **Turn-based logic**
-- 📜 **Terminal-based UI** (for now!)
+---
 
-## 🛠️ Tech Stack
+## 👥 Team
 
-- 💻 Language: Python
-- 🧠 Concepts used:
-  - Object-Oriented Programming
-  - Data Structures (lists, tuples, enums)
-  - Modular code design
-  - Game loop logic
+- 💻 Developed by **Theo** and a friend  
+- 🤝 Built together as part of our collaborative learning in university
+
+---
+
+## 🧰 Tech Stack
+
+- **Java** – Main programming language  
+- **Apache NetBeans** – IDE used for GUI and project structure  
+- **MySQL / SQL Database** – Used for storing image assets  
+- **Swing** – For GUI components  
+- **DAO Pattern** – For clean separation of database access logic
+
+---
 
 ## 📸 Screenshots / Preview
 
-![Game Preview](Screenshot-Onitama.png)
+![Main Menu Preview](assets/Screenshot-01-MainMenu.png)
+![Gameplay Preview](assets/Screenshot-04.png)
+![End Game Preview](assets/Screenshot-06-EndGame.png)
 
-> *(Optional: Replace the image with a real screenshot of your game board in terminal or GUI if you have it.)*
+---
 
 ## 🚀 How to Play (Run the Game)
 
@@ -42,3 +52,21 @@ To win, a player must:
    ```bash
    git clone https://github.com/yourusername/onitama-game.git
    cd onitama-game
+
+2. Open the project in Apache NetBeans
+    - Launch Apache NetBeans.
+    - Go to File > Open Project.
+    - Navigate to the onitama-game folder and open it.
+
+3. Set up the database
+    - Make sure MySQL or your preferred SQL database is running.
+    - Import the SQL file if provided (or manually set up the database tables and images).
+    - Configure your database connection inside dao/database/config.properties.
+
+4. Run the project
+    - Locate and right-click Main.java or Onitama.java.
+    - Select Run File.
+
+5. Play the game
+    - The GUI will launch.
+    - Choose your pieces and cards, then enjoy the game!
